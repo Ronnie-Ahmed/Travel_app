@@ -10,9 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-gradient-to-b from-gray-300 to-blue-900">
         <Navbar />
-        <main className="relative  overflow-hidden">{children}</main>
+        <main className="relative  overflow-hidden ">{children}</main>
         <Footer />
       </body>
     </html>
